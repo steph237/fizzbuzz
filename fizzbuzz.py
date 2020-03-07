@@ -1,4 +1,4 @@
-n = int(input("enter number: "))
+n = int(input("enter number: ")) # give a number
 
 def fizzbuzz(n):
     if n % 3 == 0 and n % 5 == 0:
@@ -9,6 +9,7 @@ def fizzbuzz(n):
         return "buzz"
     else:
         return n
+        print n
 
 
 print(fizzbuzz(n))
